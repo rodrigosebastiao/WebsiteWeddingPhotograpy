@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Pacifico');
+h1.heading-1,.heading-2{
+  font-family:'lato';
+}
+
+
 
 .navbar {
   background-color: white;
@@ -8,17 +13,27 @@
  }
 
  a.nav-link{
-   font-family: 'Oswald';
-      }
+   font-family: 'lato';
+       }
+
+       .navbar-light .navbar-nav .nav-link{
+         color:black;
+         font-style: bold;
+
+       }
  
   .navbar-light .navbar-nav .nav-link:hover{
-     color:aquamarine;
+     color:white;
      
    }
   
 .navbar li {
   padding: 30px;
    font-size: 18px;
+}
+.navbar li:hover{
+  background: black;
+  
 }
 
 .carousel-inner .carousel-item {
@@ -50,9 +65,15 @@ margin: 20px 50px;
   text-align: center;
   background-color: #f1f1f1;
   border-radius: 5px;
-  background-size: contain;
+  background-size: contain; 
+  
 
 }
+.section-1{ 
+  background:#f1f1f1;
+   
+}
+
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
@@ -63,10 +84,12 @@ margin: 20px 50px;
   }
 
 }
-
-.container-fluid {
-  background: gray;
+.container-fluid .row .card{
+  padding: 10px;
+  margin: 20px;
+  background: 
 }
+
 
 .container {
   padding: 16px;
