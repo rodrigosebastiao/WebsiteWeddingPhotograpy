@@ -4,17 +4,19 @@ h1.heading-1,.heading-2{
 }
 
 
-
+li.nav-item:hover{
+border-bottom: 7px solid black;
+}
 .navbar {
   background-color: white;
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid gray;
   max-height: 100px;
   padding-left: 80px;
  }
 
  a.nav-link{
    font-family: 'lato';
-       }
+        }
 
        .navbar-light .navbar-nav .nav-link{
          color:black;
@@ -23,19 +25,20 @@ h1.heading-1,.heading-2{
        }
  
   .navbar-light .navbar-nav .nav-link:hover{
-     color:white;
+     color:black;
+     opacity: 0.5;
+     
      
    }
   
 .navbar li {
   padding: 30px;
    font-size: 18px;
-}
-.navbar li:hover{
-  background: black;
-  
-}
+ }
 
+  
+
+ 
 .carousel-inner .carousel-item {
   height: 400px;
 }
@@ -87,7 +90,7 @@ margin: 20px 50px;
 .container-fluid .row .card{
   padding: 10px;
   margin: 20px;
-  background: 
+  
 }
 
 
@@ -250,4 +253,12 @@ background: #32cd32;
   color: beige;
 }
 
+p.para-1{
+  margin: 40px;
+  margin-bottom: 10px;
 
+}
+
+h1.heading-1{
+  margin-top: 40px;
+}
